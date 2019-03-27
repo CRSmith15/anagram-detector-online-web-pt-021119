@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(all_words)
-    all_words.select {|x| @word.split()
+    all_words.select {|x| @word.split("") ==
   end 
 end
