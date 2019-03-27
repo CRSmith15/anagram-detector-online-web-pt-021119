@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(all_words)
-    all_words.select {|
+    all_words.select {|x| 
   end 
 end
